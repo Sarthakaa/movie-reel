@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url(img/pexels-pixabay-531880.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.search {
+  width: 400px;
+}
+
+.search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.suggestions {
+  width: 100%;
+}
+
+.suggestions .movie {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.suggestions .movie img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.suggestions .movie .title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.suggestions .movie .favorite-btn {
+  margin-left: auto;
+  padding: 5px 10px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.favorites {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.favorites h2 {
+  margin-bottom: 10px;
+}
+
+.favorites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-item img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.favorite-item .title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.favorite-item .remove-btn {
+  margin-left: auto;
+  padding: 5px 10px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+}
